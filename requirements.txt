@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+altair
+matplotlib
+streamlit-option-menu
+textwrap3
+pyserial 
+pydub

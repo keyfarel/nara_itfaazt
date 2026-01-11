@@ -14,7 +14,8 @@ def configure_app():
         layout="wide",
         initial_sidebar_state="expanded"
     )
-    st.markdown(get_custom_css(), unsafe_allow_html=True)
+    mode = st.session_state.get("theme_mode", "light")
+    st.markdown(get_custom_css(mode), unsafe_allow_html=True)
 
 def main():
     configure_app()
